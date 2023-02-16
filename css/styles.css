@@ -140,3 +140,24 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
+/* Portfolio page */
+.filter-item {
+  background-color: var(--light);
+  color: var(--primary-brand);
+  border-style: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+.filter-item:hover,
+.filter-item:focus {
+  background-color: var(--pressed-state);
+  color: #ffffff;
+}
