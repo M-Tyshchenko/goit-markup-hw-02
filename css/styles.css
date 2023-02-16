@@ -88,7 +88,7 @@ body {
   background-color: var(--primary-brand);
   color: #ffffff;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -124,6 +124,7 @@ body {
 
 .description {
   text-transform: capitalize;
+  color: var(--text);
 }
 
 /* Team section */
@@ -154,7 +155,7 @@ footer {
   border: 1px solid var(--accent);
   border-radius: 4px;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -168,4 +169,17 @@ footer {
 .filter-item:focus {
   background-color: var(--pressed-state);
   color: #ffffff;
+}
+
+.project {
+  background-color: #ffffff;
+  border: 1px solid var(--accent);
+}
+.project:hover,
+.project:focus {
+  background-color: var(--accent);
+}
+
+.project > a {
+  text-decoration: none;
 }
